@@ -1,0 +1,6 @@
+Mathematical Derivation of Average Runtime Complexity
+The recurrence relation for quicksort in the average case is given by:
+T(n)=2T(n/2)+O(n)
+Solving this recurrence yields:
+T(n)=O(nlogn)
+Thus, the average runtime complexity of the non-random pivot quicksort is O(n log n).
